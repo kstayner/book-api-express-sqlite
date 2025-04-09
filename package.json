@@ -7,10 +7,17 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["express", "sqlite", "api", "books", "authors"],
+  "keywords": [
+    "express",
+    "sqlite",
+    "api",
+    "books",
+    "authors"
+  ],
   "author": "Seu Nome",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "sqlite3": "^5.1.7"
